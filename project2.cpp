@@ -1,18 +1,3 @@
-// Name:Abhijeet Solanki,  CSCI 2170-001, Due: 02/10/2017
-// PROGRAM ID: main.cpp / Amortization Schedules
-// AUTHOR: Abhijeet Solanki
-// INSTALLATION:  MTSU
-// REMARKS: For this project, you will write a C++ program in CodeLite to
-// calculate an amortization schedule based on loan terms read from a file.
-// To be flexible, your program will read in a filename,
-// and then open that file (and verify that it successfully opened the file).
-// That file will contain loan terms with the following syntax:
-// <loan amount><tab character><number of years><tab character><annual interest rate>
-// Additionally, only display the amortization schedule for the first and last six months.
-// Finally, if your program cannot open a file, then display an error
-// message and exit (see below for exact syntax).
-
-
 # include <iostream>
 # include <fstream>   // This header is used for files.
 # include <cmath>     // Header <cmath> declares a set of functions to compute common mathematical operations.
